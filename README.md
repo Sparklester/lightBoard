@@ -26,3 +26,18 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# Com està fet 
+## Els components
+
+El nostre projecte es divideix en dues parts, la configuració dels elements i la programació d'aquests. De moment hem estat fent l'apartat de configuració. Respecte al disseny hi han altres components com ara, el login de l'inici, la barra de navegació. La configuració es divideix en:
+
+- Configuració de sortida (confsort):
+    - Component que integrarà els atributs i característiques de cada sortida (tipus, Pin sortida, nom, potència)
+    - Importar la classe (element) que conté les seves característiques (tipus, tipus, Pin sortida, nom, potència)
+    - Es declara un input que incorpora les propietats de la classe Element
+ 
+- Configuració de sortida dels dispositius: component que integrarà una sèrie de configuracions de sortida
+    - Aquest element utilitzarà la classe Element
+    - Aquest component registrarà la informació de nous elements i l'assignarà a una posició d'un array. Després mitjançant un ngFor, envia la informació de cada element de cada posició de l'array al component CONFIG SORTIDA, aquest component s'encarrega d'emmagatzemar la informació que se li ha assignat, per a posar-la dins un objecte Element que està buit.
+    
