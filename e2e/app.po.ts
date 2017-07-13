@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class LightBoardPage {
+export class LightsControllerPage {
   navigateTo() {
     return browser.get('/');
   }
