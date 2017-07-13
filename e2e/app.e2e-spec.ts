@@ -1,10 +1,10 @@
-import { LightBoardPage } from './app.po';
+import { LightsControllerPage } from './app.po';
 
-describe('light-board App', () => {
-  let page: LightBoardPage;
+describe('lights-controller App', () => {
+  let page: LightsControllerPage;
 
   beforeEach(() => {
-    page = new LightBoardPage();
+    page = new LightsControllerPage();
   });
 
   it('should display welcome message', () => {
